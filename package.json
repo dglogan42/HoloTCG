@@ -1,0 +1,15 @@
+{
+  "name": "holotcg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HOLOTCG — original online virtual-idol trading card game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sim": "node scripts/sim.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.1"
+  }
+}
