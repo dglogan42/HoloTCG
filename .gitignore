@@ -35,3 +35,16 @@ hololive OFFICIAL CARD GAME｜hololive production_files/
 
 # session / generated scratch
 .grok/
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/app/src/main/assets/www/
+android/local.properties
+android/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.iml

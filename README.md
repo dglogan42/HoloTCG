@@ -36,6 +36,21 @@ npm run sim
 
 Runs seeded CPU vs CPU games to smoke-test the rules engine.
 
+## Android APK (Gradle)
+
+Wraps the same client in a WebView. CPU play works offline. Online rooms still need a running `npm start` host.
+
+```bash
+cd android
+gradlew.bat assembleDebug
+```
+
+APK output:
+
+`android/app/build/outputs/apk/debug/app-debug.apk`
+
+Requires JDK 17 and the Android SDK (`ANDROID_HOME`). The first build downloads the Gradle wrapper distribution.
+
 ## Start decks (proxies)
 
 | Deck | Color | Notes |
